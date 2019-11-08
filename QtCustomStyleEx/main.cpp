@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
     qApp->setStyle("chameleon");  //Windows/Fusion/...
     Example *w = new Example();
     w->resize(1000, 700);
-
+    w->init();
     w->show();
 
     return a.exec();
